@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <label for="celsius">Celsius:</label>
+        <input type="number" id="celsius" placeholder="Enter Celsius temperature" oninput="convertTemperature()"><div><br></div>
+
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit temperature" oninput="convertTemperature()"><div><br></div>
+
+        <label for="kelvin">Kelvin:</label>
+        <input type="number" id="kelvin" placeholder="Enter Kelvin temperature" oninput="convertTemperature()"><div><br></div>
+
+        <div class="buttons">
+            <button onclick="resetInputs()">Reset</button>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright @Kashish Agrawal Reserved
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
 
