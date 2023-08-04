@@ -13,15 +13,16 @@
     <div class="container">
         <h1>Temperature Converter</h1>
         <label for="celsius">Celsius:</label>
-        <input type="number" id="celsius" placeholder="Enter Celsius temperature" oninput="convertTemperature()"><div><br></div>
+        <input type="number" id="celsius" placeholder="Enter Celsius temperature"><div><br></div>
 
         <label for="fahrenheit">Fahrenheit:</label>
-        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit temperature" oninput="convertTemperature()"><div><br></div>
+        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit temperature"><div><br></div>
 
         <label for="kelvin">Kelvin:</label>
-        <input type="number" id="kelvin" placeholder="Enter Kelvin temperature" oninput="convertTemperature()"><div><br></div>
+        <input type="number" id="kelvin" placeholder="Enter Kelvin temperature"><div><br></div>
 
         <div class="buttons">
+            <button onclick="convertTemperature()">Convert</button>
             <button onclick="resetInputs()">Reset</button>
         </div>
     </div>
